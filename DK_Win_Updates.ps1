@@ -1,7 +1,10 @@
-#DK Win Updates
-#It will check for updates and install them
-#author theDXT
-#last update 23 November 2020
+# DK Win Updates v1.0.0
+# Author: Daniel Keer
+# Author URI: https://thedxt.ca
+# Script URI: https://github.com/thedxt/win-updates
+#
+# DESCRIPTION
+# checks for Windows updates and install them
 
 clear-host
 Write-host "Checking for Updates..." -foregroundcolor yellow
