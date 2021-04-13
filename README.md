@@ -9,3 +9,20 @@ This will check for updates and download and install them. It will list all the 
 ## Future Plans
 * better verbose output of the updates it is downloading and installing as it does them
 * Output the verbose info to a log file to work better with some RMMs
+
+# Office 365 nice update
+This will install Office updates on the system and will warn the user if they have Office open.
+
+If the user has Office open they will see a message similar to this
+
+![image](https://user-images.githubusercontent.com/4249262/114624998-d5121600-9c6e-11eb-8591-432d3c074969.png)
+
+
+# Office 365 force update
+This will force the install of Office updates on the system and it will not warn the user. It will just close the applications it needs to in order to install the update.
+
+## Know issues
+* The end usre may still see a screen that tells them Updates were installed.
+
+
+![image](https://user-images.githubusercontent.com/4249262/114624847-8f554d80-9c6e-11eb-914f-f6ca8c81f10d.png)
