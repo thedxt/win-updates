@@ -24,5 +24,16 @@ This will force the install of Office updates on the system and it will not warn
 ## Know issues
 * The end usre may still see a screen that tells them Updates were installed.
 
-
 ![image](https://user-images.githubusercontent.com/4249262/114624847-8f554d80-9c6e-11eb-914f-f6ca8c81f10d.png)
+
+# Teams MSI update
+This will update the Teams Machine Wide MSI. It will just close Teams if the user has it open.
+
+This resolves the Teams needs an update issue on shared PCs
+
+![image](https://user-images.githubusercontent.com/4249262/218810874-8682eb7f-bd71-4707-a2a9-50501f32762e.png)
+
+## Know issues
+* The system will need to be rebooted for the Teams install to kick off for the users (or all users need to logoff and login again).
+  * You can manually force it to install for a user by running the Teams install check as the user `C:\Program Files (x86)\Teams Installer\Teams.exe --checkInstall`
+  * You can check for errors for Teams not installing are here `C:\users\%username%\AppData\Local\SquirrelTemp\SquirrelSetup.log'
