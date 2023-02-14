@@ -36,4 +36,4 @@ This resolves the Teams needs an update issue on shared PCs
 ## Know issues
 * The system will need to be rebooted for the Teams install to kick off for the users (or all users need to logoff and login again).
   * You can manually force it to install for a user by running the Teams install check as the user `C:\Program Files (x86)\Teams Installer\Teams.exe --checkInstall`
-  * You can check for errors for Teams not installing are here `C:\users\%username%\AppData\Local\SquirrelTemp\SquirrelSetup.log'
+  * You can check for errors for Teams not installing are here `C:\users\%username%\AppData\Local\SquirrelTemp\SquirrelSetup.log`
