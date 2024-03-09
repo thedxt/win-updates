@@ -37,3 +37,14 @@ This resolves the Teams needs an update issue on shared PCs
 * The system will need to be rebooted for the Teams install to kick off for the users (or all users need to logoff and login again).
   * You can manually force it to install for a user by running the Teams install check as the user `C:\Program Files (x86)\Teams Installer\Teams.exe --checkInstall`
   * You can check for errors for Teams not installing are here `C:\users\%username%\AppData\Local\SquirrelTemp\SquirrelSetup.log`
+
+# New Teams Bulk Install
+This will download and install New Teams for all users.
+
+This is only intended to be run on Windows 10 or Windows 11 systems.
+
+- run as system or as administrator
+- Downloads the latest Teams bootstrapper and the latest new Teams MSIX.
+- Kill any running Microsoft Teams sessions be it new Teams or classic Teams.
+
+[More detailed documentation](https://thedxt.ca/)
