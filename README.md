@@ -47,4 +47,4 @@ This is only intended to be run on Windows 10 or Windows 11 systems.
 - Downloads the latest Teams bootstrapper and the latest new Teams MSIX.
 - Kill any running Microsoft Teams sessions be it new Teams or classic Teams.
 
-[More detailed documentation](https://thedxt.ca/)
+[More detailed documentation](https://thedxt.ca/2024/03/new-teams-bulk-install-script/)
