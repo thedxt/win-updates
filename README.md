@@ -55,4 +55,4 @@ This will create a shortcut for new Teams on the Public Desktop
 - run as system or as administrator
 - Creates a shortcut on the Public Dekstop to the URI of new Teams.
 
-[More detailed documentation](https://thedxt.ca/)
+[More detailed documentation](https://thedxt.ca/2024/03/new-teams-desktop-shortcut/)
