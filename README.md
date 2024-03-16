@@ -48,3 +48,11 @@ This is only intended to be run on Windows 10 or Windows 11 systems.
 - Kill any running Microsoft Teams sessions be it new Teams or classic Teams.
 
 [More detailed documentation](https://thedxt.ca/2024/03/new-teams-bulk-install-script/)
+
+# New Teams Shortcut
+This will create a shortcut for new Teams on the Public Desktop
+
+- run as system or as administrator
+- Creates a shortcut on the Public Dekstop to the URI of new Teams.
+
+[More detailed documentation](https://thedxt.ca/)
