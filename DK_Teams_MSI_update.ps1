@@ -47,7 +47,7 @@ function install-TeamsMSI{
 Write-host "Installing $name"
 
 
-Start-Process msiexec.exe -Wait -ArgumentList "/i", "$Env:SystemDrive\$temp\$msi.msi", "ALLUSERS=1", "/qn"  -WindowStyle Hidden
+Start-Process msiexec.exe -Wait -ArgumentList "/i", "$Env:SystemDrive\$temp\$msi.msi", "ALLUSERS=1", "/qn", "/norestart"  -WindowStyle Hidden
 
 Write-host "$name Should now be installed"
 }
@@ -99,7 +99,7 @@ write-host "Nuking old $name"
 If ($TeamsFinder.PSChildName) 
 {
         $Teams_MSI_Nuke = $TeamsFinder.PSChildName
-        start-Process msiexec.exe -ArgumentList "/x", "$Teams_MSI_Nuke", "/qn" -WindowStyle Hidden -wait
+        start-Process msiexec.exe -ArgumentList "/x", "$Teams_MSI_Nuke", "/qn", "/norestart" -WindowStyle Hidden -wait
 }
 
 write-host "$name Nuke Completed"
